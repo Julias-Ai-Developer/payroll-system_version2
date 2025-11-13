@@ -1,0 +1,68 @@
+# Database Configuration (if you want to keep credentials private)
+config/database.php
+
+# Database Backups
+*.sql
+backups/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+error_log
+debug.log
+
+# Temporary Files
+tmp/
+temp/
+cache/
+*.tmp
+*.temp
+
+# PHP
+vendor/
+composer.lock
+.env
+.env.local
+
+# Uploads (if you add file upload functionality)
+uploads/
+files/
+
+# Node Modules (if you add npm packages)
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+build/
+
+# OS generated files
+*.bak
+*.backup
+
+# Security
+.htpasswd
+
+# Session files
+sessions/
